@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- key of FSL-->
+    <string name="remoteAccessConsumerKey">3MVG9snqYUvtJB1Oe53479qt_X5gOeW9vXfGD849Q9mLAeA6LLV7MFWUatGJIcRxahkLs1hp5AVF.fN2zvbrX</string>
+
+
+    <!-- key of CWO <string name="remoteAccessConsumerKey">3MVG9YDQS5WtC11qr_O5L.zpP0GPCXqMsZJnQrnz9HckZAdfgSzoXoZVKcJC5po4A5YguJ5VqtN3JuUvjJoKG</string>
+    --><string name="oauthRedirectURI">sdfc://success</string>
+    <string-array name="oauthScopes">
+        <item>api</item>
+		<item>web</item>
+    </string-array>
+    <string name="androidPushNotificationClientId"></string>
+</resources>

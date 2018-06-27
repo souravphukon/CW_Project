@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This DrawerLayout has two children at the root  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:background="@drawable/bg_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary">
+
+                <TextView android:id="@+id/action_sos"
+                    android:layout_margin="@dimen/notes_activity_horizontal_margin"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:text="SOS"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/notes_activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/circle_small_red" />
+                <!-- The ActionBar displayed at the top -->
+                <include
+                    android:layout_toLeftOf="@id/action_sos"
+                    layout="@layout/tool_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <!-- The main content view where fragments are loaded -->
+            <FrameLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nvView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header"
+            app:itemIconTint="@color/drawer_item"
+            app:itemTextColor="@color/drawer_text_item"
+            app:menu="@menu/menu_home" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
+
+
+

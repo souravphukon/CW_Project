@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type">com.androd.capgemini.cwo.login</string>
+	<string name="app_name"><b>CognitiveWorkOrders</b></string>
+	<string name="app_package">com.androd.capgemini.cwo</string>
+    <string name="welcome">Welcome %s</string>
+	<string name="logout_button">Logout</string>
+	<string name="fetch_contacts_button">Fetch Contacts</string>
+	<string name="fetch_accounts_button">Fetch Accounts</string>
+	<string name="clear_button">Clear</string>
+
+
+	<string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+
+	<string name="what_s_on_your_mind">Enter your query</string>
+
+
+	<string name="api_key">d1d16516fd59d0822e8a5eefbaf0a2ef8b858fe0</string>
+
+	<string name="safety_text">Under the health and safety regulations, you are required to acknowledge the safety compliance. The activity assigned involves heights and high wind pressures. It is advised to reach the place with recommended safety gear and always harnessed while attending the issue.</string>
+
+	<string name="degree_celcius">\u2103</string>
+	<string name="permdesc_flashlight"> Access flash light</string>
+</resources>

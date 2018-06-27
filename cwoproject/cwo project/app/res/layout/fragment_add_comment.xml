@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/close_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_bg_blue"
+        android:elevation="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_margin="@dimen/notes_activity_horizontal_margin"
+        android:padding="@dimen/notes_activity_horizontal_margin"
+        android:text="Close"/>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/close_label"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <EditText android:id="@+id/comments_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Add Comments"
+            android:layout_weight="1"
+            android:textColor="@color/dark_grey"
+            android:gravity="left|top"/>
+
+        <EditText android:id="@+id/suggestions_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Add Suggestions"
+            android:layout_weight="1"
+            android:textColor="@color/dark_grey"
+            android:gravity="left|top" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

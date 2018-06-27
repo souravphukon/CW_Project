@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/native/NativeSampleApps/AppConfigurator/AppConfigurator.iml" filepath="$PROJECT_DIR$/native/NativeSampleApps/AppConfigurator/AppConfigurator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native/NativeSampleApps/ConfiguredApp/ConfiguredApp.iml" filepath="$PROJECT_DIR$/native/NativeSampleApps/ConfiguredApp/ConfiguredApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native/NativeSampleApps/RestExplorer/RestExplorer.iml" filepath="$PROJECT_DIR$/native/NativeSampleApps/RestExplorer/RestExplorer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native/NativeSampleApps/test/RestExplorerTest/RestExplorerTest.iml" filepath="$PROJECT_DIR$/native/NativeSampleApps/test/RestExplorerTest/RestExplorerTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/SalesforceAnalytics/SalesforceAnalytics.iml" filepath="$PROJECT_DIR$/libs/SalesforceAnalytics/SalesforceAnalytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/test/SalesforceAnalyticsTest/SalesforceAnalyticsTest.iml" filepath="$PROJECT_DIR$/libs/test/SalesforceAnalyticsTest/SalesforceAnalyticsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/SalesforceHybrid/SalesforceHybrid.iml" filepath="$PROJECT_DIR$/libs/SalesforceHybrid/SalesforceHybrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/test/SalesforceHybridTest/SalesforceHybridTest.iml" filepath="$PROJECT_DIR$/libs/test/SalesforceHybridTest/SalesforceHybridTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/SalesforceReact/SalesforceReact.iml" filepath="$PROJECT_DIR$/libs/SalesforceReact/SalesforceReact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/SalesforceSDK/SalesforceSDK.iml" filepath="$PROJECT_DIR$/libs/SalesforceSDK/SalesforceSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/test/SalesforceSDKTest/SalesforceSDKTest.iml" filepath="$PROJECT_DIR$/libs/test/SalesforceSDKTest/SalesforceSDKTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/SmartStore/SmartStore.iml" filepath="$PROJECT_DIR$/libs/SmartStore/SmartStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/test/SmartStoreTest/SmartStoreTest.iml" filepath="$PROJECT_DIR$/libs/test/SmartStoreTest/SmartStoreTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/SmartSync/SmartSync.iml" filepath="$PROJECT_DIR$/libs/SmartSync/SmartSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native/NativeSampleApps/SmartSyncExplorer/SmartSyncExplorer.iml" filepath="$PROJECT_DIR$/native/NativeSampleApps/SmartSyncExplorer/SmartSyncExplorer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/test/SmartSyncTest/SmartSyncTest.iml" filepath="$PROJECT_DIR$/libs/test/SmartSyncTest/SmartSyncTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native/test/TemplateAppTest/TemplateAppTest.iml" filepath="$PROJECT_DIR$/native/test/TemplateAppTest/TemplateAppTest.iml" />
+    </modules>
+  </component>
+</project>

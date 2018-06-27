@@ -1,0 +1,318 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:id="@+id/chat_icon"
+            android:layout_width="0dp"
+            android:background="@drawable/rect_bg_blue"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="@dimen/notes_activity_horizontal_margin"
+            android:layout_margin="@dimen/notes_activity_horizontal_margin"
+            android:text="Chat"
+            android:drawableEnd="@drawable/ic_chat"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_help"
+            />
+
+        <TextView
+            android:id="@+id/camera_icon"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="Camera"
+            android:padding="@dimen/notes_activity_horizontal_margin"
+            android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+            android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+            android:drawableRight="@drawable/ic_camera"
+            android:background="@drawable/rect_bg_blue"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_camera"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_above="@id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/notes_activity_horizontal_margin"
+        android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/work_order_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:text="Work Order Asset"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <View android:id="@+id/view_1"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_below="@id/work_order_label"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/work_desc"
+                android:layout_below="@id/view_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_below="@id/work_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <View android:id="@+id/view_2"
+                android:layout_below="@id/desc"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/work_order_title"
+                android:layout_below="@id/view_2"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Work Order #"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/work_order"
+                android:layout_below="@id/view_2"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                />
+
+            <View android:id="@+id/view_3"
+                android:layout_below="@id/work_order_title"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/case_number_title"
+                android:layout_below="@id/view_3"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Case Number #"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/case_number"
+                android:layout_below="@id/view_3"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                />
+
+            <View android:id="@+id/view_4"
+                android:layout_below="@id/case_number_title"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/status_title"
+                android:layout_below="@id/view_4"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Status"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_below="@id/view_4"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                />
+
+            <View android:id="@+id/view_5"
+                android:layout_below="@id/status_title"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/toggle"
+                android:layout_below="@id/view_5"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Follow up visit required ?"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+
+            <ToggleButton android:id="@+id/follow_up_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view_5"
+                />
+
+            <View android:id="@+id/view_6"
+                android:layout_below="@id/follow_up_toggle"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/complexity"
+                android:layout_below="@id/view_6"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Complexity"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView android:id="@+id/complexity_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view_6"
+                android:text="Intermediate"
+                />
+
+            <View android:id="@+id/view_7"
+                android:layout_below="@id/complexity_label"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_below="@id/view_7"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Estimated Duration"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView android:id="@+id/duration_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view_7"
+                android:text="2 hrs"
+                />
+
+            <View android:id="@+id/view_8"
+                android:layout_below="@id/duration_value"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_below="@id/view_8"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Distance from current location"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView android:id="@+id/distnace_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view_8"
+                android:text="2.5 miles"
+                />
+
+            <View android:id="@+id/view_9"
+                android:layout_below="@id/distnace_value"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_below="@id/view_9"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Start time"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView android:id="@+id/start_time_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view_9"
+                android:text="2nd Mar 16:30"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

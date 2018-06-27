@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/initiate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/theme_rounded_rectangle"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="Initiate"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:id="@+id/tools_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_weight="1"
+                android:background="@color/theme_color"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/notes_activity_horizontal_margin">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tools" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/notes_activity_horizontal_margin"
+                    android:text="Tools"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/no_tools_required"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/spare_parts_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/notes_activity_horizontal_margin"
+                android:layout_weight="1"
+                android:background="@color/theme_color"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/notes_activity_horizontal_margin">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/spare_parts" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/notes_activity_horizontal_margin"
+                    android:text="Spare Parts"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/no_spare_parts_required"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/safety_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_weight="1"
+                android:background="@color/theme_color"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/notes_activity_horizontal_margin">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/safety" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/notes_activity_horizontal_margin"
+                    android:gravity="center"
+                    android:text="safety measures and compliance"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/safety_regulation_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:checked="false"
+            android:gravity="top"
+            android:text="@string/safety_text"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <FrameLayout
+            android:id="@+id/sub_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:padding="@dimen/notes_activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/priority_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_margin="@dimen/notes_activity_horizontal_margin"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView android:id="@+id/start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_margin="@dimen/notes_activity_horizontal_margin"
+        android:text="Start time"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView android:id="@+id/datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/start_time"
+        android:layout_alignRight="@id/start_time"
+        android:layout_below="@id/start_time"
+        android:gravity="center"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:layout_toRightOf="@id/priority_icon"
+        android:layout_toLeftOf="@id/start_time"
+        android:id="@+id/service_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_below="@id/service_id"
+        android:layout_toRightOf="@id/priority_icon"
+        android:layout_toLeftOf="@id/start_time"
+        android:layout_width="match_parent"
+        android:maxLines="2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        tools:ignore="RtlHardcoded" />
+
+
+</RelativeLayout>

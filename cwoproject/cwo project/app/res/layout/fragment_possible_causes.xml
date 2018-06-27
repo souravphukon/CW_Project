@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/observations_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/theme_color_dark">
+
+        <EditText
+            android:id="@+id/observations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/notes_activity_horizontal_margin"
+            android:background="@color/white"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:hint="Observations"
+            android:padding="@dimen/notes_activity_horizontal_margin"
+            android:textColor="@color/dark_grey" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_record"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:elevation="0dp"
+            android:paddingLeft="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/audio" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/service_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/notes_activity_horizontal_margin"
+                android:paddingRight="@dimen/notes_activity_horizontal_margin"
+                android:text="Service History"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/service_history_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawableRight="@android:drawable/ic_menu_view"
+                android:paddingLeft="@dimen/notes_activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="Decouple the fan from the shaft and check the bearing, issue will be identified."
+                android:gravity="center_vertical"
+                android:textColor="@color/dark_grey" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/chat_image_call_layout"
+            android:layout_width="match_parent"
+            android:layout_below="@id/service_layout"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/notes_activity_horizontal_margin"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/chat_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/theme_color_dark"
+                android:src="@drawable/chat"
+                android:padding="@dimen/notes_activity_horizontal_margin"  />
+
+            <ImageView
+                android:id="@+id/image_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/theme_color_dark"
+                android:src="@drawable/imagew"
+                android:gravity="center"
+                android:padding="@dimen/notes_activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/call_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/theme_color_dark"
+                android:src="@drawable/call"
+                android:gravity="center"
+                android:padding="@dimen/notes_activity_horizontal_margin" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/comments_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chat_image_call_layout"
+            android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/notes_activity_horizontal_margin"
+            android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+            android:gravity="top"
+            android:hint="Type your comments..."
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/complete_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comments_edittext"
+            android:layout_margin="@dimen/notes_activity_horizontal_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/complete_pending_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+                android:layout_weight="1"
+                android:background="@color/red"
+                android:text="Complete Pending"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/complete_close_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/notes_activity_horizontal_margin"
+                android:layout_weight="1"
+                android:background="@color/theme_color_dark"
+                android:text="Complete close"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@id/observations_layout"
+        android:orientation="vertical">
+
+        <ExpandableListView
+            android:id="@+id/instruction_list"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:layout_width="match_parent"/>
+
+        <!--<android.support.v7.widget.RecyclerView
+            android:id="@+id/instruction_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:id="@+id/suggestions_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/suggestions_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/notes_activity_horizontal_margin"
+                android:paddingRight="@dimen/notes_activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:text="Suggestions List"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/suggestions_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+-->
+    </LinearLayout>
+
+</RelativeLayout>

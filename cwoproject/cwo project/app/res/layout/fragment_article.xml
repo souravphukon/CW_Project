@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/resolve_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_bg_blue"
+        android:elevation="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_margin="@dimen/notes_activity_horizontal_margin"
+        android:padding="@dimen/notes_activity_horizontal_margin"
+        android:text="Resolve"/>
+
+    <WebView android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/resolve_label"
+        />
+
+</RelativeLayout>

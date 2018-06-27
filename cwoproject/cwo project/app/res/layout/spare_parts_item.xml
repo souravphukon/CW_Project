@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        android:textColor="@color/dark_grey" />
+
+    <LinearLayout
+        android:id="@+id/availability_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/available_label"
+            android:background="@android:color/holo_green_light"
+            android:padding="@dimen/notes_activity_horizontal_margin"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/available_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="Available"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/no_availability_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/available_label"
+                android:background="@android:color/holo_red_light"
+                android:padding="@dimen/notes_activity_horizontal_margin"
+                android:text="0"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/no_available_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:text="Unavailable"
+                android:textColor="@android:color/holo_red_light" />
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/order_places_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Placed"
+            android:visibility="gone"
+            android:textColor="@color/red" />
+        <Button
+            android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+            android:padding="@dimen/notes_activity_horizontal_margin"
+            android:id="@+id/place_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/theme_rounded_rectangle"
+            android:text="Place Order"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</LinearLayout>

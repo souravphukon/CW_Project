@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\src\debug\jniLibs"/></dataSet></merger>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_dashboard"
+        android:checkable="true"
+        android:title="Dashboard"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:checkable="true"
+        android:title="My Profile"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/action_service_history"
+        android:checkable="true"
+        android:title="My Service History"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/action_kpi"
+        android:checkable="true"
+        android:title="My KPIs"
+        app:showAsAction="withText" />
+
+</menu>

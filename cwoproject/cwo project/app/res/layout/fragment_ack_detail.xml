@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/work_order_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:text="Acknoeledgement Work Order"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <View android:id="@+id/view_1"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_below="@id/work_order_label"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/work_desc"
+                android:layout_below="@id/view_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_below="@id/work_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <View android:id="@+id/view_2"
+                android:layout_below="@id/desc"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/work_order_title"
+                android:layout_below="@id/view_2"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Work Order #"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/work_order"
+                android:layout_below="@id/view_2"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                />
+
+            <View android:id="@+id/view_3"
+                android:layout_below="@id/work_order_title"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/case_number_title"
+                android:layout_below="@id/view_3"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Case Number #"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/case_number"
+                android:layout_below="@id/view_3"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                />
+
+            <View android:id="@+id/view_4"
+                android:layout_below="@id/case_number_title"
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:layout_below="@id/view_4"
+                android:id="@+id/bottom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+                    android:id="@+id/accept_label"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:text="Accept"
+                    android:elevation="5dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/rect_bg_green"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+                    android:text="Reject"
+                    android:layout_marginLeft="@dimen/notes_activity_horizontal_margin"
+                    android:elevation="5dp"
+                    android:id="@+id/reject_label"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="18sp"
+                    android:background="@drawable/rect_bg_red"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

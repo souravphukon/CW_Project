@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Watson Conversation Service Credentials --> 
+    <!-- Workspace id is of FSL from cordova. Default worksapce id taken from sample was blank-->
+    <string name="workspace_id">9fcda9cd-b9b6-4daa-a02b-c8ff03096c4d</string> 
+
+
+    <string name="conversation_username">b859252b-bb14-47b5-96f6-92c3cc86361d</string>
+    <!--<string name="conversation_username">6789f819-b62d-49c4-b072-9a1579507985</string> -->
+    <string name="conversation_password">UzZHeJcv8jQ7</string>  
+
+</resources>

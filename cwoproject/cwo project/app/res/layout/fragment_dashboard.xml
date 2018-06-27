@@ -1,0 +1,254 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:id="@+id/alert_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#FFFFB3"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/bell_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/notes_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+                android:background="@drawable/circle_small_grey"
+                android:padding="@dimen/notes_activity_horizontal_margin"
+                android:src="@android:drawable/ic_popup_reminder" />
+
+            <TextView
+                android:id="@+id/alert_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/bell_icon"
+                android:text="Alert"
+                android:textColor="@color/theme_color_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/alert_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alert_title"
+                android:layout_toRightOf="@id/bell_icon"
+                android:text="Warehouse #3434 is closed for renovation and so no deliveries or pickups would be made from this site."
+                android:textColor="@color/dark_grey"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/availability_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert_layout"
+            android:background="@color/grey_light"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Availability"
+                android:textColor="@color/theme_color_dark"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/availability_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:padding="@dimen/activity_horizontal_margin" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/current_work_order_notification_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/availability_layout"
+            android:background="@color/theme_color"
+            android:padding="@dimen/notes_activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/work_order_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/notes_activity_horizontal_margin" />
+
+            <TextView
+                android:id="@+id/work_order_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/work_order_img"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/work_order_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/work_order_id"
+                android:layout_toRightOf="@id/work_order_img"
+                android:textColor="@color/text_color_light"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/work_order_type_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/work_order_desc"
+                android:layout_margin="@dimen/notes_activity_horizontal_margin"
+                android:layout_toRightOf="@id/work_order_img"
+                android:background="@color/theme_color_dark"
+                android:orientation="vertical"
+                android:padding="@dimen/notes_activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/work_order_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_yellow"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/work_order_datetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_yellow"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/work_order_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/org_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/current_work_order_notification_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/org_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_color_dark"
+                android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:text="Organizational Info"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/org_link_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_color"
+                android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:autoLink="web"
+                android:text="https://www.capgemini.com/wp-content/uploads/2017/07/capgemini_field_service_lightning_accelerator_0.pdf"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/org_link_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_color"
+                android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:autoLink="web"
+                android:text="https://www.capgemini.com/service/capgemini-field-service-lightning-accelerator"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/org_link_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_color"
+                android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:autoLink="web"
+                android:text="https://www.capgemini.com/2017/04/how-field-service-leads-the-charge-for-improved-customer-experience"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/industry_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_color_dark"
+                android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:text="Industry Info"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/industry_link_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_color"
+                android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:autoLink="web"
+                android:text="https://www.salesforce.com/in/products/service-cloud/features/field-service-industry"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/industry_link_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_color"
+                android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/notes_activity_horizontal_margin"
+                android:autoLink="web"
+                android:text="https://www.fieldware.com/field-service-automation-benefits"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

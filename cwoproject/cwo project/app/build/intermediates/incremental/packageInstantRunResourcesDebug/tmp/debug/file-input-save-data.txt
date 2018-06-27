@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Tue Jun 12 12:33:46 IST 2018
+2.base=C\:\\Users\\sborphuk\\Desktop\\code\\New_Project\\cwoproject\\cwo project\\app\\build\\intermediates\\assets\\debug
+5.set=ASSET
+0.path=ftf.png
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\sborphuk\\Desktop\\code\\New_Project\\cwoproject\\cwo project\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.path=sla_compliance.png
+4.base=C\:\\Users\\sborphuk\\Desktop\\code\\New_Project\\cwoproject\\cwo project\\app\\build\\intermediates\\assets\\debug
+count=6
+5.baseType=DIRECTORY
+2.path=windshield.png
+5.base=C\:\\Users\\sborphuk\\Desktop\\code\\New_Project\\cwoproject\\cwo project\\app\\build\\intermediates\\assets\\debug
+4.set=ASSET
+3.path=customer_satisfaction.png
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=pending_completed.png
+1.baseType=DIRECTORY
+5.path=utlization.png
+0.base=C\:\\Users\\sborphuk\\Desktop\\code\\New_Project\\cwoproject\\cwo project\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=C\:\\Users\\sborphuk\\Desktop\\code\\New_Project\\cwoproject\\cwo project\\app\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

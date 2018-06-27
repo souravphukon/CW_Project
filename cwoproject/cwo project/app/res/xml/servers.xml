@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<servers>
+    <server name="FSL" url="https://ph-lex--fsldemosit.cs50.my.salesforce.com" />
+    <server name="Community Login" url="https://cwo-developer-edition.ap4.force.com/customers" />
+</servers>

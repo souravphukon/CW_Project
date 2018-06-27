@@ -1,0 +1,4 @@
+#Tue Jun 12 12:10:41 IST 2018
+base.0=C\:\\Users\\sborphuk\\Desktop\\code\\New_Project\\cwoproject\\cwo project\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

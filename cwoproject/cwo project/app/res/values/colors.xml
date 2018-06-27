@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Color for buttons-->
+<!--
+    <color name="theme_color">#0c244e</color>
+    <color name="theme_color_dark">#00183f</color>
+-->
+
+    <color name="theme_color">#0042a5</color>
+    <color name="theme_color_dark">#013285</color>
+
+
+
+    <color name="text_color_light">#8b8b97</color>
+    <color name="text_color_yellow">#fdbf2a</color>
+
+
+
+    <!--<color name="theme_color">#0f85ff</color>-->
+    <color name="heathrow_text">#ffffff</color>
+    <color name="button_background">@color/theme_color</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#999999</color>
+    <color name="dark_grey">#696969</color>
+    <color name="light_color">#7e5da4</color>
+    <color name="grey_light">#C7C7CD</color>
+    <color name="sub_title_color">#982686</color>
+    <color name="black">#333333</color>
+    <color name="green">#09987a</color>
+    <color name="magenta">#bb42dd</color>
+    <color name="dark_yellow">#828407</color>
+    <color name="orange">#dd7520</color>
+
+    <color name="red">#EB3037</color>
+    <color name="yellow">#FABB22</color>
+
+    <color name="transparent">#00000000</color>
+
+   <!-- <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>-->
+
+    <color name="bg_bubble_self">#62caa6</color>
+    <color name="bg_bubble_watbot">#ecf0f1</color>
+
+
+</resources>

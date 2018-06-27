@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This DrawerLayout has two children at the root  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/theme_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <ImageView
+        android:layout_marginTop="@dimen/notes_activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/alert" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert!"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_margin="@dimen/notes_activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="There can be possibility of network issues at your work destination, this can interfere with the normal functioning of this app."
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:padding="@dimen/notes_activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Would you want to download the necessary content for completing this task to your device?"
+        android:textColor="@color/dark_grey"
+        android:textSize="12sp" />
+
+    <RadioGroup
+        android:paddingLeft="@dimen/notes_activity_horizontal_margin"
+        android:paddingRight="@dimen/notes_activity_horizontal_margin"
+        android:paddingBottom="@dimen/notes_activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radio_group_id"
+        android:background="@color/white">
+
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:checked="true"
+            android:textColor="@color/dark_grey" />
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textColor="@color/dark_grey" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_margin="@dimen/notes_activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Your records of work will be synchronized automatically when connected again."
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <Button
+        android:layout_marginLeft="@dimen/notes_activity_horizontal_margin"
+        android:layout_marginRight="@dimen/notes_activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/notes_activity_horizontal_margin"
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color_dark"
+        android:text="OK"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
+
+
+

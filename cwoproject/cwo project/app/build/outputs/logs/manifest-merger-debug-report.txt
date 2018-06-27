@@ -1,0 +1,578 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:1-139:12
+INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:1-139:12
+INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:1-139:12
+INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:1-139:12
+MERGED from [:libs:SmartSync] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-147:12
+MERGED from [com.android.support:design:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\3ee6fc8b01cf8e2dc2f41990acac1616\AndroidManifest.xml:17:1-27:12
+MERGED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\6a422c5ca57baef821ac37241627fcda\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\07b8a7945a28bd307f7bf6bcedcd4ac0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\5bef9891c41f5d369468a357c22e523b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\bd92997ebfad2f9bd1bb3f3e52214dea\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\10ddda49d11e78a5ef3ba2ff46eef054\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\941b85727da888961f47187dcee88aa6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\0a26ad88f4cc729754428df6e0b7430e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:2:1-14:12
+MERGED from [com.kyanogen.signatureview:signature-view:1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\signature-view-1.0.aar\f3807521fa1c78af82619eb3f26fd3e9\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\5d4fdb5df0d30a0b982466f070220271\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\customtabs-25.2.0.aar\d887c50fa23dc77cef4f27cec48ae194\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\341f58dfa720b3d48e94c41fd6594083\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\6e65bb75ffd6fdd526546ff422068051\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\4f85c083b53c162691d3db8a69eaa1ca\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\bfc0205cff698583e5b6d6e890b292ae\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\c79f58936183049ff4e13d99a742e0db\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\425ff74f7ba1e59d21e7d16d3aa663f7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\12c92fce6cdd163b919a33a07b4c848a\AndroidManifest.xml:17:1-31:12
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\7d54fb8fefdbce1e96b018fcb735fa80\AndroidManifest.xml:2:1-4:12
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:1-139:12
+INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:1-139:12
+INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:1-139:12
+	package
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:4:2-36
+		INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml
+		INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:6:2-27
+		INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml
+		INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:5:2-25
+		INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml
+		INJECTED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:7:2-40
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:9:2-63
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:21:5-66
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:9:19-61
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:10:2-62
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:10:19-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:11:2-78
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:11:19-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:13:2-76
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:13:19-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:15:2-67
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:15:19-65
+uses-feature#android.hardware.camera
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:18:2-57
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:18:16-54
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:20:2-65
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:20:19-63
+uses-feature#android.hardware.camera.flash
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:21:2-88
+	android:required
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:21:61-85
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:21:16-60
+uses-feature#0x00020000
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:23:2-25:28
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:21:5-77
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:24:3-35
+	android:required
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:25:3-26
+application
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:27:2-125:16
+MERGED from [:libs:SmartSync] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:libs:SmartSync] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [com.android.support:design:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\3ee6fc8b01cf8e2dc2f41990acac1616\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\3ee6fc8b01cf8e2dc2f41990acac1616\AndroidManifest.xml:25:5-20
+MERGED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:11:5-22:19
+MERGED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:11:5-22:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\6a422c5ca57baef821ac37241627fcda\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\6a422c5ca57baef821ac37241627fcda\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\5bef9891c41f5d369468a357c22e523b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\5bef9891c41f5d369468a357c22e523b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\bd92997ebfad2f9bd1bb3f3e52214dea\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\bd92997ebfad2f9bd1bb3f3e52214dea\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\10ddda49d11e78a5ef3ba2ff46eef054\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\10ddda49d11e78a5ef3ba2ff46eef054\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\941b85727da888961f47187dcee88aa6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\941b85727da888961f47187dcee88aa6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\0a26ad88f4cc729754428df6e0b7430e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\0a26ad88f4cc729754428df6e0b7430e\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:7:5-12:19
+MERGED from [com.kyanogen.signatureview:signature-view:1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\signature-view-1.0.aar\f3807521fa1c78af82619eb3f26fd3e9\AndroidManifest.xml:11:5-14:19
+MERGED from [com.kyanogen.signatureview:signature-view:1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\signature-view-1.0.aar\f3807521fa1c78af82619eb3f26fd3e9\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:customtabs:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\customtabs-25.2.0.aar\d887c50fa23dc77cef4f27cec48ae194\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\customtabs-25.2.0.aar\d887c50fa23dc77cef4f27cec48ae194\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\341f58dfa720b3d48e94c41fd6594083\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\341f58dfa720b3d48e94c41fd6594083\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\6e65bb75ffd6fdd526546ff422068051\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\6e65bb75ffd6fdd526546ff422068051\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\4f85c083b53c162691d3db8a69eaa1ca\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\4f85c083b53c162691d3db8a69eaa1ca\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\bfc0205cff698583e5b6d6e890b292ae\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\bfc0205cff698583e5b6d6e890b292ae\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\c79f58936183049ff4e13d99a742e0db\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\c79f58936183049ff4e13d99a742e0db\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\425ff74f7ba1e59d21e7d16d3aa663f7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\425ff74f7ba1e59d21e7d16d3aa663f7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\12c92fce6cdd163b919a33a07b4c848a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\12c92fce6cdd163b919a33a07b4c848a\AndroidManifest.xml:25:5-29:19
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+	android:label
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:28:3-35
+	android:manageSpaceActivity
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:31:3-81
+	android:allowBackup
+		ADDED from [com.kyanogen.signatureview:signature-view:1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\signature-view-1.0.aar\f3807521fa1c78af82619eb3f26fd3e9\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:27:15-46
+	android:theme
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:30:3-34
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:29:3-34
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:33:3-35:62
+	android:value
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:35:4-59
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:34:4-49
+activity#com.example.vmac.chatbot.HomeActivity
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:45:3-54:14
+	android:label
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:46:4-36
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:45:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:48:4-51:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:49:5-57
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:49:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:50:5-65
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:50:15-62
+activity#com.example.vmac.chatbot.MainActivity
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:57:3-62:14
+	android:label
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:58:7-39
+	android:theme
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:59:4-62
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:57:13-41
+activity#com.salesforce.androidsdk.ui.LoginActivity
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:84:9-96:20
+MERGED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
+MERGED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
+	android:launchMode
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:86:13-48
+	android:theme
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:85:13-64
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:84:19-76
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:path:/success+data:scheme:sdfc
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:88:13-95:29
+data
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:89:17-91:47
+	android:path
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:91:21-44
+	android:host
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:90:21-37
+	android:scheme
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:89:23-44
+action#android.intent.action.VIEW
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:92:17-69
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:92:25-66
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:93:17-78
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:93:27-75
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:94:17-76
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:94:27-73
+uses-sdk
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:127:5-128:41
+MERGED from [:libs:SmartSync] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartSync] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\3ee6fc8b01cf8e2dc2f41990acac1616\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\3ee6fc8b01cf8e2dc2f41990acac1616\AndroidManifest.xml:21:5-23:62
+MERGED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\6a422c5ca57baef821ac37241627fcda\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\6a422c5ca57baef821ac37241627fcda\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\07b8a7945a28bd307f7bf6bcedcd4ac0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\07b8a7945a28bd307f7bf6bcedcd4ac0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\5bef9891c41f5d369468a357c22e523b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\5bef9891c41f5d369468a357c22e523b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\bd92997ebfad2f9bd1bb3f3e52214dea\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.2.aar\bd92997ebfad2f9bd1bb3f3e52214dea\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\10ddda49d11e78a5ef3ba2ff46eef054\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.2.aar\10ddda49d11e78a5ef3ba2ff46eef054\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\941b85727da888961f47187dcee88aa6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\941b85727da888961f47187dcee88aa6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\0a26ad88f4cc729754428df6e0b7430e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\0a26ad88f4cc729754428df6e0b7430e\AndroidManifest.xml:7:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:5:5-44
+MERGED from [com.kyanogen.signatureview:signature-view:1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\signature-view-1.0.aar\f3807521fa1c78af82619eb3f26fd3e9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kyanogen.signatureview:signature-view:1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\signature-view-1.0.aar\f3807521fa1c78af82619eb3f26fd3e9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\5d4fdb5df0d30a0b982466f070220271\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\5d4fdb5df0d30a0b982466f070220271\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\customtabs-25.2.0.aar\d887c50fa23dc77cef4f27cec48ae194\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\customtabs-25.2.0.aar\d887c50fa23dc77cef4f27cec48ae194\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\341f58dfa720b3d48e94c41fd6594083\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\341f58dfa720b3d48e94c41fd6594083\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\6e65bb75ffd6fdd526546ff422068051\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\6e65bb75ffd6fdd526546ff422068051\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\4f85c083b53c162691d3db8a69eaa1ca\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\4f85c083b53c162691d3db8a69eaa1ca\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\bfc0205cff698583e5b6d6e890b292ae\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\bfc0205cff698583e5b6d6e890b292ae\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\c79f58936183049ff4e13d99a742e0db\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\c79f58936183049ff4e13d99a742e0db\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\425ff74f7ba1e59d21e7d16d3aa663f7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\425ff74f7ba1e59d21e7d16d3aa663f7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\12c92fce6cdd163b919a33a07b4c848a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\12c92fce6cdd163b919a33a07b4c848a\AndroidManifest.xml:21:5-23:58
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\7d54fb8fefdbce1e96b018fcb735fa80\AndroidManifest.xml:3:3-40
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\7d54fb8fefdbce1e96b018fcb735fa80\AndroidManifest.xml:3:3-40
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\3ee6fc8b01cf8e2dc2f41990acac1616\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:128:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:127:15-41
+permission#com.androd.capgemini.cwo.C2D_MESSAGE
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:135:5-136:47
+	android:protectionLevel
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:136:9-44
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:135:17-68
+uses-permission#com.androd.capgemini.cwo.C2D_MESSAGE
+ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:138:5-76
+	android:name
+		ADDED from C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\app\AndroidManifest.xml:138:22-73
+activity#com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity
+ADDED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-17:67
+	android:exported
+		ADDED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-64
+	android:name
+		ADDED from [:libs:SmartStore] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-95
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-82
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.2.aar\f45e310209dac4e23900d5fc0a88e539\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.2.aar\49fab5e10063283531d4ea29e13b7d30\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-79
+uses-permission-sdk-23#android.permission.USE_FINGERPRINT
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:29-78
+meta-data#android.content.APP_RESTRICTIONS
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-26:56
+	android:resource
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-53
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-60
+service#com.salesforce.androidsdk.auth.AuthenticatorService
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-39:19
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-79
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
+action#android.accounts.AccountAuthenticator
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:57
+	android:resource
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-54
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-69
+activity#com.salesforce.androidsdk.ui.PasscodeActivity
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:67
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
+	android:theme
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-64
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-73
+activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-62:67
+	android:excludeFromRecents
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-46
+	android:theme
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-64
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-76
+activity#com.salesforce.androidsdk.ui.ServerPickerActivity
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-68:67
+	android:excludeFromRecents
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-46
+	android:theme
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-64
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-77
+activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-74:67
+	android:excludeFromRecents
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
+	android:theme
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-64
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-80
+activity#com.salesforce.androidsdk.auth.idp.IDPCodeGeneratorActivity
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:67
+	android:excludeFromRecents
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-46
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-37
+	android:theme
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-64
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-87
+activity#com.salesforce.androidsdk.ui.DevInfoActivity
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:9-87:67
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-37
+	android:theme
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-64
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-72
+receiver#com.salesforce.androidsdk.auth.idp.IDPInititatedLoginReceiver
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-98:20
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-89
+intent-filter#action:name:com.salesforce.IDP_LOGIN_REQUEST+category:name:android.intent.category.DEFAULT
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-97:29
+action#com.salesforce.IDP_LOGIN_REQUEST
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:17-75
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:25-72
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:9-114:20
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
+	android:permission
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-73
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.vmac.chatbot
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:17-81
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:25-78
+category#${applicationId}
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+category#com.example.vmac.chatbot
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+service#com.salesforce.androidsdk.push.SFDCGcmListenerService
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:9-122:19
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-81
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-121:29
+service#com.salesforce.androidsdk.push.SFDCInstanceIDListenerService
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-129:19
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-88
+intent-filter#action:name:com.google.android.gms.iid.InstanceID
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:13-128:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:17-80
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:25-77
+service#com.salesforce.androidsdk.push.SFDCRegistrationIntentService
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-133:19
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-88
+receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:9-137:40
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-37
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-105
+service#com.salesforce.androidsdk.push.PushService
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:139:9-141:40
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:13-37
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-70
+service#com.salesforce.androidsdk.analytics.AnalyticsPublisherService
+ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:142:9-144:40
+	android:exported
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:13-37
+	android:name
+		ADDED from [:libs:SalesforceSDK] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-89
+provider#android.support.v4.content.FileProvider
+ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:12:9-21:20
+	android:grantUriPermissions
+		ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:14:13-82
+	android:exported
+		ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:17:13-20:25
+	android:resource
+		ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [com.ibm.watson.developer_cloud:android-sdk:0.4.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\android-sdk-0.4.2.aar\c6b3512c8f96584cd4c33b09c81f1fd2\AndroidManifest.xml:18:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\941b85727da888961f47187dcee88aa6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\941b85727da888961f47187dcee88aa6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\341f58dfa720b3d48e94c41fd6594083\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\341f58dfa720b3d48e94c41fd6594083\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\6e65bb75ffd6fdd526546ff422068051\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\6e65bb75ffd6fdd526546ff422068051\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\4f85c083b53c162691d3db8a69eaa1ca\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\4f85c083b53c162691d3db8a69eaa1ca\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\bfc0205cff698583e5b6d6e890b292ae\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\bfc0205cff698583e5b6d6e890b292ae\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\c79f58936183049ff4e13d99a742e0db\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\c79f58936183049ff4e13d99a742e0db\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\425ff74f7ba1e59d21e7d16d3aa663f7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\425ff74f7ba1e59d21e7d16d3aa663f7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\12c92fce6cdd163b919a33a07b4c848a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\12c92fce6cdd163b919a33a07b4c848a\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\976428b5309434e747c2309bb48d0183\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:19:5-78
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:libs:SalesforceAnalytics] C:\Users\sborphuk\Desktop\code\New_Project\cwoproject\cwo project\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.2.aar\6dd76de638d623257adff577aa762e9c\AndroidManifest.xml:19:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.2.aar\2b90372d11e9ff38966a2f170e7bc737\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.2.aar\e2049f2b719e232123abc448bb5f3de0\AndroidManifest.xml:20:20-65
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sborphuk\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\3e6125ee8490f85e703fbda38bc3d1c6\AndroidManifest.xml:9:13-64
